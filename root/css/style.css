@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+/*-----CARD STYLES-----*/
+main {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    height: 700px;
+    width: 450px;
+    border-radius: 35px;
+    box-shadow:  7px 7px 34px #afafaf,
+             -7px -7px 34px #ffffff;
+    text-align: center;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .portada {
+    width: 100%;
+    border-radius: 35px 35px 0 0 ;
+}
+.card h1 {
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+}
+.card .cardInfo {
+    color: hsl(224, 23%, 55%);
+    width: 60%;
+    font-size: 16px;
+}
+.plan {
+    margin: 20px 0;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    width: 80%;
+    height: 80px;
+    padding: 5%;
+    align-items: center;
+}
+.plan a {
+    margin-left: 80px;
+    /*text-decoration: none;*/
+    color: hsl(245, 75%, 52%);
+    text-underline-offset: 4px;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+}
+.linkButton {
+    text-decoration: none;
+}
+.linkButton button {
+    color: #ffffff;
+    font-weight: 900;
+    border: none;
+    border-radius: 15px;
+    width: 355px;
+    height: 60px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow:  7px 7px 34px #afafaf;
+    margin-bottom: 30px;
+}
+.cancel {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    margin-top: 40px;
+    font-size: 11px; text-align: center; 
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
